@@ -1,0 +1,8 @@
+T = int(input())
+results = []
+for _ in range(T):
+    X, N = map(int, input().split())
+    score = N * (X //10)
+    results.append(score)
+for result in results:
+    print(result)
