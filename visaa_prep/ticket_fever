@@ -1,0 +1,8 @@
+T = int(input())
+results = []
+for _ in range(T):
+    N,M = map(int, input().split())
+    unbooked_students = max(0, N - M)
+    results.append(unbooked_students)
+for result in results:
+    print(result)
